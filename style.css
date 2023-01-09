@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;    
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("image/sunrise.webp");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 8rem;
+    border: 1rem solid white;
+    padding:2rem
+}
+
+.countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 10rem;
+}
+
+h3{
+    font-size: 3rem; 
+}
+
+.time{
+    padding: 7rem;
+    text-align: center;
+}
